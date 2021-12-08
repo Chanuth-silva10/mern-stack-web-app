@@ -1,0 +1,25 @@
+{
+  "name": "my_project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chanuth10/MERN_STACK_WEBESITE.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chanuth10/MERN_STACK_WEBESITE/issues"
+  },
+  "homepage": "https://github.com/Chanuth10/MERN_STACK_WEBESITE#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.1.0",
+    "nodemon": "^2.0.15"
+  },
+  "description": ""
+}

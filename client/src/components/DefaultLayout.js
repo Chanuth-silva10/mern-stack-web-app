@@ -11,7 +11,7 @@ function DefaultLayout(props) {
                </div>
            </div> 
            <div className="content">
-              {props.children}
+              {props.children} 
            </div>
         </div>
     )
