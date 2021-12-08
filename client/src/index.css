@@ -4,6 +4,7 @@ body {
   font-family: "Montserrat", sans-serif !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: azure;
 }
 
 code {
@@ -21,9 +22,7 @@ h1 {
 }
 .header {
   padding: 15px;
-  background-color: azure;
 }
 .content {
   min-height: 90vh;
-  background-color: azure;
 }
