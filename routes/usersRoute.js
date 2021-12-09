@@ -4,9 +4,9 @@ const User = require("../models/userModel");
 
 router.post("/login", async (req, res) => {
   const { username, password } = req.body;
-
   try {
     const user = await User.findOne({ username, password });
+    console.log(user);
     if (user) {
       res.send(user);
     } else {

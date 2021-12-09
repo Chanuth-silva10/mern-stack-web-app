@@ -8,7 +8,6 @@ function Login() {
   const dispatch = useDispatch();
   function onFinish(values) {
     dispatch(userLogin(values));
-    console.log(values);
   }
   return (
     <div className="login">
@@ -32,6 +31,7 @@ function Login() {
             >
               <Input />
             </Form.Item>
+
             <Form.Item
               name="password"
               label="Password"

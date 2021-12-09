@@ -9,9 +9,9 @@ export const userLogin = (reqObj) => async (dispatch) => {
     localStorage.setItem("user", JSON.stringify(response.data));
     message.success("Login success");
     dispatch({ type: "LOADING", payload: false });
-    // setTimeout(() => {
-    //   window.location.href = "/";
-    // }, 500);
+    setTimeout(() => {
+      window.location.href = "/";
+    }, 500);
   } catch (error) {
     console.log(error);
     message.error("Something went wrong");
