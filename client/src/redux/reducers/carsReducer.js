@@ -1,5 +1,38 @@
 const initialData = {
-  cars: [],
+  cars: [
+    {
+      name: "Tata Altroz",
+      image: "https://www.w3schools.com/images/w3schools_green.jpg",
+    },
+    {
+      name: "Tata Altroz",
+      image: "https://www.w3schools.com/images/w3schools_green.jpg",
+    },
+    {
+      name: "Tata Altroz",
+      image: "https://www.w3schools.com/images/w3schools_green.jpg",
+    },
+    {
+      name: "Tata Altroz",
+      image: "https://www.w3schools.com/images/w3schools_green.jpg",
+    },
+    {
+      name: "Tata Altroz",
+      image: "https://www.w3schools.com/images/w3schools_green.jpg",
+    },
+    {
+      name: "Tata Altroz",
+      image: "https://www.w3schools.com/images/w3schools_green.jpg",
+    },
+    {
+      name: "Tata Altroz",
+      image: "https://www.w3schools.com/images/w3schools_green.jpg",
+    },
+    {
+      name: "Tata Altroz",
+      image: "https://www.w3schools.com/images/w3schools_green.jpg",
+    },
+  ],
 };
 
 export const carsReducer = (state = initialData, action) => {
