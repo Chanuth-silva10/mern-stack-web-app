@@ -1,5 +1,5 @@
 import "./App.css";
-import { Route, Routes, BrowserRouter, Redirect } from "react-router-dom";
+import { Route, Routes, BrowserRouter, Navigate } from "react-router-dom";
 import Home from "./pages/Home";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
@@ -22,3 +22,11 @@ function App() {
 }
 
 export default App;
+
+export function ProtectedRoute(props) {
+  if (localStorage.getItem("user")) {
+    return <Route {...props} />;
+  } else {
+    return <Route path="*" element={<Navigate to="/login" />} />;
+  }
+}
